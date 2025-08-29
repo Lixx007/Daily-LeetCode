@@ -36,4 +36,4 @@
   
 ---
 
-## Consistency is the key. One problem a day keeps fear away.
+## Consistency is the key. 
