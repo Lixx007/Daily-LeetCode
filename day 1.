@@ -1,8 +1,9 @@
-<h1 align="center">🚀 LeetCode 34 - Find First and Last Position of Element in Sorted Array</h1>
+-LeetCode 34 - Find First and Last Position of Element in Sorted Array.
 
-## 💻 Code Implementation (C++)
+-Code Implementation.
 
-```cpp
+-----------------------------------------------------------------------
+
 class Solution {
 public:
     int findrightmost(vector<int>& nums, int target){
