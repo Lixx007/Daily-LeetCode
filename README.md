@@ -32,11 +32,8 @@
 - 🔹 Heap / Priority Queue  
 - 🔹 Dynamic Programming  
 - 🔹 Greedy Algorithms  
-- 🔹 Bit Manipulation  
-- 🔹 Math & Number Theory  
-- 🔹 Prefix Sum & Kadane’s Algorithm  
-- 🔹 Advanced Topics (Segment Tree, Fenwick Tree, Trie, Union-Find)  
-
+- 🔹 Bit Manipulation
+  
 ---
 
 ## Consistency is the key. One problem a day keeps fear away.
