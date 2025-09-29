@@ -1,0 +1,25 @@
+930. Binary Subarrays With Sum
+
+-Code Implementation.
+
+-----------------------------------------------------------------------
+
+class Solution {
+public:
+    int numSubarraysWithSum(vector<int>& nums, int goal) {
+        int n = nums.size();
+        unordered_map<int,int> mp;
+        int result = 0;
+        int currSum = 0;
+        mp[0] = 1; 
+        for(int i = 0; i < nums.size(); i++) {
+            currSum += nums[i];  
+            int remaining_Sum = currSum - goal;
+            if(mp.find(remaining_Sum) != mp.end()) {
+                result += mp[remaining_Sum];
+            }
+            mp[currSum]++;
+        }
+         return result;
+    }
+};
